@@ -1,12 +1,14 @@
 package com.example.delve.utils;
 
+import com.example.delve.R;
+
 /**
  * Created by sahilmidha on 03/04/16.
  */
 public class URLBuilder
 {
-    private static final String CLIENT_ID = "@string/client_id";
-    private static final String CLIENT_SECRET = "@string/client_secret";
+    private static final String CLIENT_ID = "LFHNYAE311I5ZUMLYSP2WRVTM5RPHUZ0MM1X1QKLQ4CBIADO";
+    private static final String CLIENT_SECRET = "ERRFYFA1KVVJHFMZ21MMJJBG2LEVVSXFDHE4TUTG231XXUO4";
 
     private static final String BASE_URL = "https://api.foursquare.com/v2";
     private static final String VENUE_EXPLORE = "/venues/explore";

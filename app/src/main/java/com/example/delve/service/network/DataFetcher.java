@@ -1,6 +1,7 @@
 package com.example.delve.service.network;
 
 import android.os.AsyncTask;
+import android.util.Log;
 
 import com.example.delve.service.processors.iSectionDataProcessor;
 import com.example.delve.service.iWebServiceResponseListener;
@@ -48,6 +49,7 @@ public class DataFetcher
             try
             {
                 url = new java.net.URL(requestBuilder.getRequestUrl());
+
                 connection = (HttpURLConnection) url.openConnection();
                 connection.setReadTimeout(REQUEST_READ_TIME_OUT);
                 connection.setConnectTimeout(REQUEST_CONNECTION_TIME_OUT);
